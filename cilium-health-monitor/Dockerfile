@@ -1,4 +1,4 @@
-FROM quay.io/cilium/cilium-cli:v0.20.0 AS cilium
+FROM quay.io/cilium/cilium-cli:v0.20.1 AS cilium
 FROM debian:13-slim
 
 RUN apt-get update \
